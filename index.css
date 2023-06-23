@@ -342,3 +342,32 @@ background-image: linear-gradient(315deg, #f0ecfc 0%, #c797eb 74%);
 .btn-8 span:hover:after {
   width: 100%;
 }
+
+
+/*____________*/
+.places {
+  margin: 25px auto 0;
+  max-width: 984px;
+  display: grid;
+  row-gap: 80px;
+}
+  
+@media (max-width: 1024px) {
+  .places {
+    margin: 25px 48px 0;
+  }
+}
+  
+@media (max-width: 900px) {
+  .places {
+    margin: 25px 24px 0;
+    row-gap: 73px;
+  }
+}
+  
+@media (max-width: 600px) {
+  .places {
+    margin: 25px 0 0;
+    row-gap: 50px;
+  }
+}
