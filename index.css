@@ -43,7 +43,7 @@ section {
 }
 
 article {
-  background: linear-gradient(133deg, rgba(102,97,97,1) 0%, rgba(64,64,71,1) 35%, rgba(0,0,0,1) 100%);
+  background-image: linear-gradient( 135deg, #F97794 10%, #623AA2 100%);
   width: var(--size); 
   height: calc(var(--size) / 1.1111111);
   clip-path: url(#hexagono);
